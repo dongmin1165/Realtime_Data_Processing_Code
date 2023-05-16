@@ -7,7 +7,7 @@ conf = SparkConf().setMaster("local").setAppName("uber-date-trips")
 sc = SparkContext(conf=conf)
 
 # 우리가 가져올 데이터가 있는 파일
-directory = "/Users/keon/fastcampus/data-engineering/01-spark/data"
+directory = "C:\dm_project\data-engineering\01-spark\data"
 filename = "fhvhv_tripdata_2020-03.csv"
 
 # 데이터 파싱
